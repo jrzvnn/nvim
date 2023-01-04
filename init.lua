@@ -1,1 +1,3 @@
-require("jrzvnn.base") -- General Settings
+require('base')
+require('plugins')
+require('highlights')
