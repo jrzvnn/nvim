@@ -74,6 +74,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/joriz/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/joriz/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
   ["onedark.nvim"] = {
     loaded = true,
     path = "/home/joriz/.local/share/nvim/site/pack/packer/start/onedark.nvim",
@@ -83,20 +93,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joriz/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  ["presence.nvim"] = {
-    config = { "require('presence-config')" },
-    loaded = true,
-    path = "/home/joriz/.local/share/nvim/site/pack/packer/start/presence.nvim",
-    url = "https://github.com/andweeb/presence.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: presence.nvim
-time([[Config for presence.nvim]], true)
-require('presence-config')
-time([[Config for presence.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

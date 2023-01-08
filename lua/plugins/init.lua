@@ -1,7 +1,11 @@
-
 return require('packer').startup(function(use)
-  -- Packer can manage itself
-  use 'wbthomason/packer.nvim' 
-  use 'navarasu/onedark.nvim'
-  use { 'andweeb/presence.nvim', config = "require('presence-config')" }
+    use 'wbthomason/packer.nvim' 
+    use 'navarasu/onedark.nvim'
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+        'nvim-tree/nvim-web-devicons', 
+        },
+        tag = 'nightly' 
+    }
 end)
