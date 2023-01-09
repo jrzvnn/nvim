@@ -1,5 +1,5 @@
 require('base')
 require('plugins')
-require('highlights')
+require('colors')
 require('maps')
 require('tree')
