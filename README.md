@@ -9,7 +9,7 @@ Some of the notable features of this configuration include:
 * Support for the [Language Server Protocol (LSP)](https://github.com/neovim/nvim-lspconfig) with the following plugins:
   * [lsp-auto-complete](https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion) for intelligent code completion.
   * [lsp-kind](https://github.com/onsails/lspkind.nvim) for displaying information about symbols in your code.
-WWWW
+
 ### Installing this Configuration
 To install this configuration on your system, follow these steps:
 
