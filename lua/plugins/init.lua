@@ -8,6 +8,14 @@ return require('packer').startup(function(use)
         },
         tag = 'nightly' 
     }
+    use {
+	    "windwp/nvim-autopairs",
+        config = function() require("nvim-autopairs").setup {} end
+    }
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
     
     use "williamboman/mason.nvim"
     use "williamboman/mason-lspconfig.nvim"
