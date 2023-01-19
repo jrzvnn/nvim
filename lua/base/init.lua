@@ -20,6 +20,7 @@ set.scrolloff = 5
 set.fileencoding = "utf-8"
 set.conceallevel = 2
 
+set.number = true
 set.relativenumber = true
 set.cursorline = true
 set.wildmenu = true
