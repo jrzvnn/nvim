@@ -1,6 +1,6 @@
 require('base')
 require('plugins')
-require('colors')
+require('colors.gruvbox')
 require('maps')
 require('c-tree')
 require('c-lsp')
