@@ -29,4 +29,20 @@ set.completeopt = "menuone,noselect"
 set.hidden = true
 set.mouse = "a"
 
+vim.api.nvim_exec([[
+  augroup cplusplus_settings
+    autocmd!
+    autocmd FileType cpp setlocal shiftwidth=2
+    autocmd FileType cpp inoremap <buffer> ( ()<Esc>i
+    autocmd FileType cpp inoremap <buffer> { {<CR>}<Esc>O
+    autocmd FileType cpp inoremap <buffer> [ []<Esc>i
+  augroup END
+]], false)
+
+vim.api.nvim_exec([[
+  augroup copy_to_clipboard
+    autocmd!
+    autocmd TextYankPost * if v:event.operator == 'y' && v:event.regname == '' | call system("echo " . shellescape(getreg("\"")) . " | clip.exe") | endif
+  augroup END
+]], false)
 

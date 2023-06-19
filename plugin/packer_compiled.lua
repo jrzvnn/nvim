@@ -135,6 +135,11 @@ _G.packer_plugins = {
     path = "/home/joriz/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/home/joriz/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "https://github.com/xiyaowong/nvim-transparent"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/joriz/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -150,6 +155,11 @@ _G.packer_plugins = {
     path = "/home/joriz/.local/share/nvim/site/pack/packer/start/onedark.nvim",
     url = "https://github.com/navarasu/onedark.nvim"
   },
+  onehalf = {
+    loaded = true,
+    path = "/home/joriz/.local/share/nvim/site/pack/packer/start/onehalf",
+    url = "https://github.com/sonph/onehalf"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/joriz/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -160,6 +170,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joriz/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["vim-wakatime"] = {
+    loaded = true,
+    path = "/home/joriz/.local/share/nvim/site/pack/packer/start/vim-wakatime",
+    url = "https://github.com/wakatime/vim-wakatime"
   }
 }
 

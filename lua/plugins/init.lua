@@ -1,8 +1,10 @@
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim' 
-    use 'navarasu/onedark.nvim'
     use "ellisonleao/gruvbox.nvim" 
     use "EdenEast/nightfox.nvim" 
+    use 'navarasu/onedark.nvim'
+    use 'xiyaowong/nvim-transparent'
+    use 'sonph/onehalf'
     use {
         'nvim-tree/nvim-tree.lua',
         requires = {
@@ -30,4 +32,5 @@ return require('packer').startup(function(use)
     use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets pluginkkkk
     use 'onsails/lspkind.nvim' -- Pictograms for neovim lsp completion items
+    use 'wakatime/vim-wakatime'
 end)
