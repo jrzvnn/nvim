@@ -10,7 +10,7 @@ Some of the notable features of this configuration include:
   * [lsp-auto-complete](https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion) for intelligent code completion.
   * [lsp-kind](https://github.com/onsails/lspkind.nvim) for displaying information about symbols in your code.
 
-### Installing this Configuration
+## Installing this Configuration
 To install this configuration on your system, follow these steps:
 
 1. Make sure you have Neovim installed and set up. If you don't have Neovim, you can follow the instructions here.
@@ -20,3 +20,41 @@ To install this configuration on your system, follow these steps:
 4. Install the required plugins using Packer. In Neovim, run the following command:
 `:PackerSync`
 5. Restart Neovim. The One Dark color scheme and other features of this configuration should now be available.
+
+## File Structure
+```bash
+.
+├── init.lua
+├── lua
+│   ├── autopairs
+│   │   └── init.lua
+│   ├── base
+│   │   └── init.lua
+│   ├── c-lsp
+│   │   ├── auto-cmp.lua
+│   │   └── init.lua
+│   ├── c-lualine
+│   │   └── init.lua
+│   ├── c-mason
+│   │   └── init.lua
+│   ├── colors
+│   │   ├── gruvbox.lua
+│   │   ├── nightfox.lua
+│   │   └── onedark.lua
+│   ├── c-toggleterm
+│   │   └── init.lua
+│   ├── c-transp
+│   │   └── init.lua
+│   ├── c-tree
+│   │   └── init.lua
+│   ├── maps
+│   │   └── init.lua
+│   └── plugins
+│       └── init.lua
+├── plugin
+│   └── packer_compiled.lua
+├── README.md
+└── scrots
+    ├── nvim.png
+    └── Screenshot_20230109_062338.png:Zone.Identifier
+```
